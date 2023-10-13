@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="bookcss.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my personal bookmark</title>
+</head>
+<body>
+    <h1 >my bookmarks</h1>
+    <h2>personal use </h2>
+<a target="_blank" href="https://www.google.com">open google</a><br>
+<a target="_blank" href="https://web.whatsapp.com">open whatsapp</a><br>
+
+<h3 >share markert</h3>
+<a target="_blank" href="https://www.tradingview.com">open tradingview </a><br>
+<a target="_blank" href="https://www.tickertape.in">open tickertape</a><br>
+<a target="_blank" href="https://www.investing.com">open investing.com</a><br>
+<a target="_blank" href="https://chat.openai.com">open chatgpt</a><br>
+<a target="_blank" href="https://smctradeonline.com">open smc global </a><br>
+<a target="_blank" href="https://www.nseindia.com/option-chain">option chain </a><br>
+    <ol type="a">
+        <li>ramesh</li>
+        <li>suresh</li>
+        <li>rajpal</li>
+        <dl>html </dl>
+
+    </ol>
+    <h3>three types of html list </h3>
+    <dt>HTML LIST</dt>
+    <d>UL- unordered list <br>
+        2.ordered list <br>
+    3.defination list  </dd>
+</body>
+</html>

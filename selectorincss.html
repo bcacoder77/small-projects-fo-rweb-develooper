@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* element selector */
+        div{
+            
+            background-color: chartreuse;
+        }
+        /* id selector */
+        #first{
+            color: fuchsia;
+        }
+        /* class selector */
+        .class{
+            color: purple;
+            background-color: black;
+        }
+        /* child selector */
+        div > p{
+            background-color: midnightblue;
+            color: magenta;
+        }
+        /* descendent selector */
+       pre p{
+           background-color: brown;
+       }
+       /* universal selector  */
+       *{
+           margin: 0;
+           padding: 0.50%;
+           color: #8606fd;
+       }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+      1.  this is element selector
+    </div>
+    <div id="first">
+     2.   this is id selector
+    </div>
+    <div class="class">
+       3.  this is class selector
+    </div>
+    <div>here is the child selector<br>
+      4. <p>this is the child</p>
+    </div>
+<pre>
+    this is descent selector
+    <article>
+        <p>this is the use of descendent selector
+            <h1>this is heading</h1>
+            <!-- if we want to apply css in many tags in tags then we need to use tis tag -->
+        </p>
+    </article>
+</pre>
+
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css sizing units</title>
+    <style>
+        .box{
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            height: 80vh;
+            margin: 23px auto;
+            border-color: rgb(115, 14, 209);
+
+        }
+        .container{
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            height: 80vh;
+            margin: 23px auto;
+            border-color: rgb(33, 10, 245);
+            font-size: 16px;
+        }
+        .container p{
+            font-size: 2em;
+            border: 2px solid purple;
+            width: 50%;
+        }
+        .con{
+            box-sizing: border-box;
+            color: rgb(115, 0, 223);
+            /* width: 100vmin; */
+            width: 80vw;
+            /* width: 100vmax; */
+            font: size 22px;;
+            border: 2px solid black;
+            min-height: 80vh; 
+            /* minimum height itni to ho hi not necessasary ki usme content h ya nhi */
+        }
+        .container > div{
+            border: 2px solid red;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">this is box </div>
+    <div class="container">
+        <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus quidem modi reprehenderit harum eaque, laudantium optio fugiat hic ipsa perferendis tempore, explicabo iste commodi, praesentium eligendi asperiores dolorum soluta magni rerum porro dicta quo illo! Eveniet repudiandae doloribus maxime, nisi dolorum reprehenderit modi exercitationem atque in, voluptates ab eum ullam!
+        </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit corrupti quas, quidem corporis accusantium quo optio inventore quos totam facilis ipsam possimus cupiditate hic soluta quaerat, id assumenda molestiae dolorem? Ex voluptatum dolorem explicabo ipsam doloribus, placeat impedit laborum hic excepturi labore temporibus molestias ipsa facilis quod deserunt animi iusto dolores quaerat inventore repudiandae a possimus</p>    
+   
+    </div>
+    <div class="con">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia aperiam ullam quas atque accusamus a ipsum, deleniti repudiandae, ipsa nemo quam. Quasi, quas reprehenderit. Vitae debitis neque asperiores ratione repudiandae explicabo accusamus nulla cumque.
+    </div>
+    
+</body>
+</html>
